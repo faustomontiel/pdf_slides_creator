@@ -41,22 +41,22 @@ if __name__ == "__main__":
 
     # Define the sections and their page ranges
     sections = {
-        "IAM": (393, 448),
-        "VPC": (448, 486),
-        "EC2": (486, 637),
-        "autoscaling": (637, 674),
-        "EBS": (674, 700),
-        "ELB": (700, 725),
-        "S3": (725, 773),
-        "RDS": (773, 838),
-        "AURORA": (838, 851),
-        "DYNAMODB": (851, 883),
-        "ApplicationIntegration": (883, 913),
-        "Amplify": (913, 919),
-        "Serverless": (919, 942),
-        "Route53": (942, 953),
-        "CloudFront": (953, 983),
-        "RestContent": (983, 1000),  # Adjust to the total number of pages if necessary
+        "IAM": (393, 447),
+        "VPC": (448, 487),
+        "EC2": (486, 636),
+        "autoscaling": (637, 673),
+        "EBS": (674, 699),
+        "ELB": (700, 724),
+        "S3": (725, 772),
+        "RDS": (773, 837),
+        "auroraDB": (838, 850),
+        "DynamoDB": (851, 882),
+        "ApplicationIntegration": (883, 912),
+        "Amplify": (913, 918),
+        "Serverless": (919, 941),
+        "Route53": (942, 952),
+        "CloudFront": (953, 982),
+        "RestContent": (983, 1031),  # Adjust to the total number of pages if necessary
     }
 
     # Call the function
